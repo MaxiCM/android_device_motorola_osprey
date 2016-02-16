@@ -14,13 +14,13 @@
 
 $(call inherit-product, device/motorola/osprey/full_osprey.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common MaxiCM stuff.
+$(call inherit-product, vendor/maxi/config/common_full_phone.mk)
 
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := osprey
-PRODUCT_NAME := cm_osprey
+PRODUCT_NAME := maxi_osprey
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := osprey

@@ -92,6 +92,9 @@ persist.data.netmgrd.qos.enable=true
 # Storage
 persist.sys.isUsbOtgEnabled=true
 
+# OTA
+ro.ota.manifest=http://maxicm.com/osprey/ota.xml
+
 # USB
 ro.usb.mtp=0x2e82
 ro.usb.mtp_adb=0x2e76
