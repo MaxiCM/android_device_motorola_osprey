@@ -1,4 +1,7 @@
 # system.prop for osprey
+# Build.prop data
+ro.product.device=osprey
+ro.product.model=Moto G
 
 # Audio
 audio.offload.24bit.enable=false
